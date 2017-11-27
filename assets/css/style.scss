@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+.img-circle {
+    border-radius: 50%;
+}
+
 ol.begin {
   counter-reset: listcounter;
 }
