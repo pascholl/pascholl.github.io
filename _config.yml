@@ -13,8 +13,11 @@ url: "https://pascholl.github.io" # the base hostname & protocol for your site
 permalink: /blog/:year/:month/:title.html
 gems:
   - jekyll-sitemap
+
+
+# For navigation bar in default layout
 pages_list:       
-  About: '/about'
+#  About: '/about'
   Publications: '/publications'
   Teaching: '/teaching'
 #  Feed: '/atom.xml'

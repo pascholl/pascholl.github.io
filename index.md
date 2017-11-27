@@ -12,6 +12,6 @@ implementation and applications of MPC.
 
 In November 2015 I completed by PhD, titled *Design and Implementation of Secure Multi-Party Computation*, supervised by [Nigel Smart](http://www.cs.bris.ac.uk/~nigel/).
 
-## Publications
+[//]: # ## Publications
 
-{% include publications.html %}
+[//]: # {% include publications.html %}
