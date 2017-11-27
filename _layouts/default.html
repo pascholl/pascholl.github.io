@@ -13,11 +13,13 @@
     <![endif]-->
   </head>
   <body>
-    <p>Index</p>
     {% for page in site.pages_list %}
     &nbsp;&nbsp;&nbsp;
+    <h3 class="masthead-title">
+    <a href="/" title="Home">{{ site.title }}</a>
     <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
     {% endfor %}
+    </h3>
 
     <div class="wrapper">
       <header>
