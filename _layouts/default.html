@@ -13,15 +13,6 @@
     <![endif]-->
   </head>
   <body>
-    <h3 class="masthead-title">
-    <!-- <a href="/" title="Home">{{ Home }}</a> -->
-    {% for page in site.pages_list %}
-    &nbsp;&nbsp;&nbsp;
-    <small>
-      {% if item.url == page.url %}page[0]{% else}<a href="{{ page[1]  }}">{{ page[0] }}</a>{% endif}
-    </small>
-    {% endfor %}
-    </h3>
 
     <div class="wrapper">
       <header>
@@ -45,7 +36,16 @@
         {% endif %}
       </header>
       <section>
-
+      
+      <h3 class="masthead-title">
+      <!-- <a href="/" title="Home">{{ Home }}</a> -->
+      {% for page in site.pages_list %}
+      &nbsp;&nbsp;&nbsp;
+      <small>
+        {% if item.url == page.url %}page[0]{% else}<a href="{{ page[1]  }}">{{ page[0] }}</a>{% endif}
+      </small>
+      {% endfor %}
+      </h3>
       {{ content }}
 
       </section>
