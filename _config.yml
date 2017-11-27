@@ -2,14 +2,14 @@
 theme: jekyll-theme-minimal
 title: Peter Scholl
 email: peter.scholl@cs.au.dk
-description: > # this means to ignore newlines until "baseurl:"
-  I'm a postdoctoral researcher in the Cryptography Group at Aarhus University.
-  My research interests are multi-party computation (MPC), particularly constructing
-  more efficient protocols with improved security properties, as well as
-  implementation and applications of MPC.
+#description: > # this means to ignore newlines until "baseurl:"
+#  I'm a postdoctoral researcher in the Cryptography Group at Aarhus University.
+#  My research interests are multi-party computation (MPC), particularly constructing
+#  more efficient protocols with improved security properties, as well as
+#  implementation and applications of MPC.
 # baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://pascholl.github.io" # the base hostname & protocol for your site
-github_username:  pascholl
+#github_username:  pascholl
 permalink: /blog/:year/:month/:title.html
 gems:
   - jekyll-sitemap
@@ -20,4 +20,3 @@ pages_list:
 
 # Build settings
 markdown: kramdown
-theme: minima

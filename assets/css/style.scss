@@ -1,0 +1,20 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+ol.begin {
+  counter-reset: listcounter;
+}
+
+ol.begin li,
+ol.continue li {
+  list-style: none;
+  text-indent: -1.2em;
+}
+
+ol.begin li:before,
+ol.continue li:before {
+  content: counter(listcounter) ". ";
+  counter-increment: listcounter;
+}
