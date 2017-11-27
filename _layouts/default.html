@@ -38,12 +38,10 @@
       <section>
 
       <h3 class="masthead-title">
-      <!-- <a href="/" title="Home">{{ Home }}</a> -->
+      {% if "/" == page.url %}{{ Home }}{% else %}<a href="/">Home</a>{% endif %}
       {% for item in site.pages_list %}
       &nbsp;&bull;&nbsp;
-      <small>
         {% if item[1] == page.url %}{{ item[0] }}{% else %}<a href="{{ item[1]  }}">{{ item[0] }}</a>{% endif %}
-      </small>
       {% endfor %}
       </h3>
       {{ content }}
