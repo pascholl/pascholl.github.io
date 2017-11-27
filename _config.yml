@@ -15,7 +15,8 @@ gems:
   - jekyll-sitemap
 pages_list:       
   About: '/about'
-  Archive: '/publications'
+  Publications: '/publications'
+  Teaching: '/teaching'
 #  Feed: '/atom.xml'
 
 # Build settings
