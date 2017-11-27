@@ -39,10 +39,10 @@
 
       <h3 class="masthead-title">
       <!-- <a href="/" title="Home">{{ Home }}</a> -->
-      {% for page in site.pages_list %}
+      {% for item in site.pages_list %}
       &nbsp;&nbsp;&nbsp;
       <small>
-        {% if item.url == page.url %}page[0]{% else %}<a href="{{ page[1]  }}">{{ page[0] }}</a>{% endif %}
+        {% if item.url == page.url %}{{ item[0] }}{% else %}<a href="{{ item[1]  }}">{{ item[0] }}</a>{% endif %}
       </small>
       {% endfor %}
       </h3>
