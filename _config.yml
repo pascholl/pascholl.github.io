@@ -19,7 +19,8 @@ gems:
 pages_list:       
 #  About: '/about'
   Publications: '/publications'
-  Teaching: '/teaching'
+#  Activities: '/activities'
+#  Teaching: '/teaching'
 #  Feed: '/atom.xml'
 
 # Build settings
