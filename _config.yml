@@ -19,7 +19,7 @@ gems:
 pages_list:       
 #  About: '/about'
   Publications: '/publications'
-#  Activities: '/activities'
+  Activities: '/activities'
 #  Teaching: '/teaching'
 #  Feed: '/atom.xml'
 
