@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Activities - Peter Scholl
+title: Activities
 ---
 
 ### Program committees
