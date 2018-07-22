@@ -7,6 +7,10 @@
     border-radius: 50%;
 }
 
+a:hover {
+    color: green;
+}
+
 ol.begin {
   counter-reset: listcounter;
 }
