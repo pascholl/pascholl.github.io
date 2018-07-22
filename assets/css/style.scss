@@ -11,6 +11,15 @@ a:hover {
     color: green;
 }
 
+a::after {
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
 ol.begin {
   counter-reset: listcounter;
 }
