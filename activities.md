@@ -20,3 +20,10 @@ I have served on the following program committees for conferences and workshops.
 - 2018/19: [Cryptographic Computing](https://kursuskatalog.au.dk/en/course/82739/Cryptographic-Computing) (covering for Claudio Orlandi, 1 week)
 - 2017/18: [Cryptology](https://kursuskatalog.au.dk/en/course/82738/Cryptology) (covering for Ivan Damgard, 1 week)
 
+### Students
+
+I am advising the following students:
+
+- [Rahul Rachuri](https://rahulrachuri.github.io/) (PhD, co-advisor with Claudio Orlandi)
+- [Daniel Escudero](https://deescuderoo.github.io/) (PhD, co-advisor with Ivan Damgård and Jesper Nielsen)
+
