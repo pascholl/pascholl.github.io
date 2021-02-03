@@ -5,13 +5,13 @@ title: Publications
 
 More publication details are available at [Google Scholar](https://scholar.google.com/citations?user=1k1mPNAAAAAJ) and [dblp](http://dblp.uni-trier.de/pers/hd/s/Scholl:Peter).
 
-# Preprints and Miscellaneous Works
+## Preprints and Miscellaneous Works
 {% include preprints.html %}
 
-# Peer-Reviewed Journal Publications
+## Peer-Reviewed Journal Publications
 
 {% include journals.html %}
 
-# Peer-Reviewed Conference Publications
+## Peer-Reviewed Conference Publications
 
 {% include publications.html %}
