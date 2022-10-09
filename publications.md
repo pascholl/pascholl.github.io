@@ -8,10 +8,10 @@ More publication details are available at [Google Scholar](https://scholar.googl
 ## Preprints and Miscellaneous Works
 {% include preprints.html %}
 
-## Peer-Reviewed Journal Publications
+## Journal Publications
 
 {% include journals.html %}
 
 ## Peer-Reviewed Conference Publications
 
-{% include publications.html %}
+{% include conf_pubs.html %}
