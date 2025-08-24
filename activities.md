@@ -6,22 +6,27 @@ title: Activities
 
 ### Students
 
-I have the pleasure of advising the following PhD students:
+I have the pleasure of advising the following PhD student:
+- [Archisman Dutta](https://archisman.org/)
 
-- [Nikolas Melissaris](https://nikolasmelissaris.github.io/)
-- [Damiano Abram](https://damianoabram.github.io/)
-- Alexander Munch-Hansen (co-advised by Carsten Baum)
 
-and the following former students:
+and the following former PhD students:
 
-- [Rahul Rachuri](https://rahulrachuri.github.io/) (co-advisor with Claudio Orlandi). *Graduated January 2023*
-- [Daniel Escudero](https://deescuderoo.github.io/) (co-advisor with Ivan Damgård and Jesper Nielsen). *Graduated November 2021*.
+- [Nikolas Melissaris](https://nikolasmelissaris.github.io/) (2025) → IRIF
+- [Damiano Abram](https://damianoabram.github.io/) (2024) → Bocconi University → University of Edinburgh
+- Alexander Munch-Hansen (co-advised by Carsten Baum; 2024) → BlockDaemon
+- [Rahul Rachuri](https://rahulrachuri.github.io/) (co-advisor with Claudio Orlandi; 2023) → Visa Research
+- [Daniel Escudero](https://deescuderoo.github.io/) (co-advisor with Ivan Damgård and Jesper Nielsen; 2021) → JP Morgan
 
 ### Postdocs
 
-- [Katharina Boudgoust](https://katinkabou.github.io/) (from January 2022)
+Current:
+- Aron van Baarsen (from September 2024)
 - [Lance Roy](https://ldr709.gitlab.io/) (from November 2022)
-- [Hiraku Morita](https://sites.google.com/view/hirakumorita/home) (from January 2023, joint with [University of Copenhagen](https://di.ku.dk/english/research/machine-learning/))
+
+Former:
+- [Katharina Boudgoust](https://katinkabou.github.io/) (2022-2024) → CNRS
+- [Hiraku Morita](https://sites.google.com/view/hirakumorita/home) (2023-2025) → University of Southern Denmark
 
 ### Teaching
 
@@ -30,8 +35,12 @@ I also supervise various student projects for bachelor and masters theses in the
 
 ### Program committees
 
-I have served (or will serve) on the following program committees for conferences and workshops.
+I have served (or will serve) on the following program committees for conferences, workshops etc.
 
+- [Latincrypt 2025](https://ciencias.medellin.unal.edu.co/eventos/latincrypt/)
+- [Communications in Cryptology (CiC)](https://cic.iacr.org), editorial board (2025)
+- [Communications in Cryptology (CiC)](https://cic.iacr.org), editorial board (2024)
+- [Theory of Cryptography Conference (TCC) 2024](https://tcc.iacr.org/2024/)
 - [Eurocrypt 2024](https://eurocrypt.iacr.org/2024/)
 - [Latincrypt 2023](https://www.espe.edu.ec/latincrypt/)
 - [Public-Key Cryptography (PKC) 2023](https://pkc.iacr.org/2023/)
