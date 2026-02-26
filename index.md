@@ -11,5 +11,4 @@ Previously, I was a postdoc in Aarhus from 2017 until July 2019. Before coming t
 In November 2015 I completed by PhD, titled *Design and Implementation of Secure Multi-Party Computation*, supervised by [Nigel Smart](https://nigelsmart.github.io/).
 
 
-> [!NOTE]
-> I'm not currently seeking new interns or PhD students for 2026.
+> **Note:** I'm not currently seeking new interns or PhD students for 2026.
