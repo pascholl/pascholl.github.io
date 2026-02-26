@@ -38,6 +38,7 @@ I also supervise various student projects for bachelor and masters theses in the
 
 I have served (or will serve) on the following program committees for conferences, workshops etc.
 
+- [Asiacrypt 2026](https://asiacrypt.iacr.org/2026/)
 - [Latincrypt 2025](https://ciencias.medellin.unal.edu.co/eventos/latincrypt/)
 - [Communications in Cryptology (CiC)](https://cic.iacr.org), editorial board (2025)
 - [Communications in Cryptology (CiC)](https://cic.iacr.org), editorial board (2024)
