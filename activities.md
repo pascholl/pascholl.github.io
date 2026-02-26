@@ -21,6 +21,7 @@ and the following former PhD students:
 ### Postdocs
 
 Current:
+- [Erik Pohle](https://erikpohle.de/) (from January 2026)
 - Aron van Baarsen (from September 2024)
 - [Lance Roy](https://ldr709.gitlab.io/) (from November 2022)
 
