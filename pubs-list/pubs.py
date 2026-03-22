@@ -133,8 +133,12 @@ def gen_html(records, separate_by_year, eprint_records=False):
             eprint = ''
         elif record['url'] == 'https://faest.info':
             eprint += '(<a href="' + record['url'] + '">website</a>)'
-        else:
+        elif 'eprint.iacr.org' in record['url']:
             eprint += '(<a href="' + record['url'] + '">eprint</a>)'
+        elif 'slides' in record['url']:
+            eprint += '(<a href="' + record['url'] + '">slides</a>)'
+        else:
+            raise ValueError(f"Unknown URL type for entry {record['ID']}: {record['url']}")
         
         if separate_by_year and year != record['year']:
             year = record['year']
