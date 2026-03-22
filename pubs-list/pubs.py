@@ -25,14 +25,22 @@ def replace_accents(s):
     return s
 
 def format_authors(authors, remove_self=False):
+    if len(authors) == 0:
+        return ''
     res = ''
     if remove_self:
         authors.remove('Peter Scholl')
-        if len(authors) > 1:
-            res += 'with '
-        for author in authors[:-2]:
-            res += f"{author}, "
-        res += f"and {authors[-1]}"
+        if len(authors) == 0:
+            return ''
+        res += 'with '
+        if len(authors) == 1:
+            res += authors[0]
+        elif len(authors) == 2:
+            res += f"{authors[0]} and {authors[1]}"
+        else:
+            for author in authors[:-1]:
+                res += f"{author}, "
+            res += f"and {authors[-1]}"
     else:
         if len(authors) == 1:
             res = authors[0]
@@ -72,7 +80,7 @@ def parse_bib(f, strip_latex_formatting=True, remove_self=False):
                     latex = entry[key]
                 # Parse author list
                 if key == 'author':
-                    authors = [a.strip() for a in latex.split(' and ')]
+                    authors = [a.strip() for a in re.split(r'\s+and\s+', latex)]
                     # Convert "Surname, Firstname" to "Firstname Surname"
                     for i, author in enumerate(authors):
                         if ', ' in author:
@@ -163,17 +171,20 @@ def gen_latex_cite(records):
         print(record['ID'] + ', ', sep='')
     print('}')
 
-def gen_latex_list(records, exclude_me=True, journals=False):
+def gen_latex_list(records, exclude_me=True, journals=False, add_urls=False):
     """ Print nicely formatted itemized records """
     res = ''
     for record in records:
         res += '    \\item \\textbf{'
 
-        res += record['title'] + '}'
+        title = record['title']
+        if add_urls and record['url'] and record['url'] not in ['coming soon', 'https://eprint.iacr.org/']:
+            title = f"\\href{{{record['url']}}}{{{title}}}"
+        res += title + '}'
         authors = [x.strip() for x in re.split(r'\sand\s', record['author'])]
         #authors = [x.strip() for x in record['author'].split(' and ')]
-        single_author = len(authors) == 1
-        if not single_author:
+        has_coauthors = len(authors) > 1 or record['author'].startswith('with ')
+        if has_coauthors:
             res += ' --- '
         # if exclude_me:
         #     if 'Peter Scholl' in authors:
@@ -231,6 +242,8 @@ if __name__ == '__main__':
                     action="store_true", default=False)
     parser.add_argument("-l", "--latex", help="Output latex code instead of HTML",
                     action="store_true", default=False)
+    parser.add_argument("--url", help="Add hyperlinks to publications with URLs (LaTeX output only)",
+                    action="store_true", default=False)
     args = parser.parse_args()
 
     #included_categories = {}
@@ -254,7 +267,7 @@ if __name__ == '__main__':
     if args.latex:
         # For Latex code
         bib_records = parse_bib(f, strip_latex_formatting=False, remove_self=True)
-        latex = gen_latex_list(bib_records, journals=False)
+        latex = gen_latex_list(bib_records, journals=False, add_urls=args.url)
         print(latex)
     else:
         # For HTML code
