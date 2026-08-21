@@ -12,7 +12,7 @@ OPTIONAL_BIBTEX_FIELDS = ['journal', 'shortid']
 BIBTEX_FIELDS = REQUIRED_BIBTEX_FIELDS + OPTIONAL_BIBTEX_FIELDS
 
 def month_to_num(mon):
-    month_num = {'jan': 1, 'feb': 2, 'mar': 3, 'apr': 4, 'may': 5, 'jun': 5, 'jul': 7, 'aug': 8, 'sep': 9, 'oct': 10, 'nov': 11, 'dec': 12}
+    month_num = {'jan': 1, 'feb': 2, 'mar': 3, 'apr': 4, 'may': 5, 'jun': 6, 'jul': 7, 'aug': 8, 'sep': 9, 'oct': 10, 'nov': 11, 'dec': 12}
     if mon in month_num:
         return month_num[mon]
     else:
@@ -135,6 +135,10 @@ def gen_html(records, separate_by_year, eprint_records=False):
             eprint += '(<a href="' + record['url'] + '">website</a>)'
         elif 'eprint.iacr.org' in record['url']:
             eprint += '(<a href="' + record['url'] + '">eprint</a>)'
+        elif 'doi.org' in record['url']:
+            eprint += '(<a href="' + record['url'] + '">eprint</a>)'
+        elif 'arxiv.org' in record['url']:
+            eprint += '(<a href="' + record['url'] + '">arXiv</a>)'
         elif 'slides' in record['url']:
             eprint += '(<a href="' + record['url'] + '">slides</a>)'
         else:
