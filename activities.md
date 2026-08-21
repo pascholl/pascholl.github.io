@@ -21,13 +21,14 @@ and the following former PhD students:
 ### Postdocs
 
 Current:
+- [Sebastian Hasler](https://hasler.dev/) (from September 2026)
 - [Erik Pohle](https://erikpohle.de/) (from January 2026)
 - Aron van Baarsen (from September 2024)
-- [Lance Roy](https://ldr709.gitlab.io/) (from November 2022)
 
 Former:
-- [Katharina Boudgoust](https://katinkabou.github.io/) (2022-2024) → CNRS
+- [Lance Roy](https://ldr709.gitlab.io/) (2022-2026) → IBM Research
 - [Hiraku Morita](https://sites.google.com/view/hirakumorita/home) (2023-2025) → University of Southern Denmark
+- [Katharina Boudgoust](https://katinkabou.github.io/) (2022-2024) → CNRS
 
 ### Teaching
 
