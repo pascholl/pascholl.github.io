@@ -16,7 +16,7 @@ and the following former PhD students:
 - [Damiano Abram](https://damianoabram.github.io/) (2024) → Bocconi University → University of Edinburgh
 - Alexander Munch-Hansen (co-advised by Carsten Baum; 2024) → BlockDaemon
 - [Rahul Rachuri](https://rahulrachuri.github.io/) (co-advisor with Claudio Orlandi; 2023) → Visa Research
-- [Daniel Escudero](https://deescuderoo.github.io/) (co-advisor with Ivan Damgård and Jesper Nielsen; 2021) → JP Morgan
+- [Daniel Escudero](https://deescuderoo.github.io/) (co-advisor with Ivan Damgård and Jesper Nielsen; 2021) → JP Morga →TACEO
 
 ### Postdocs
 
@@ -39,6 +39,7 @@ I also supervise various student projects for bachelor and masters theses in the
 
 I have served (or will serve) on the following program committees for conferences, workshops etc.
 
+- [Crypto 2027](https://crypto.iacr.org/2027/)
 - [Asiacrypt 2026](https://asiacrypt.iacr.org/2026/)
 - [Latincrypt 2025](https://ciencias.medellin.unal.edu.co/eventos/latincrypt/)
 - [Communications in Cryptology (CiC)](https://cic.iacr.org), editorial board (2025)
